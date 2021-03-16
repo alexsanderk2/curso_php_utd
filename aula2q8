@@ -1,0 +1,17 @@
+<?php
+
+$id = array("5","18","21","9","17","50");
+$x = 0;
+$menor = 0;
+
+for($y=0;$y<count($id);$y++){
+	if($id[$y]>=18){
+		$x = $id[$y];
+		echo "este eh maior, pois tem $x anos de idade"."<br>";
+	}else{
+		$menor = $id[$y];
+		echo "este eh menor, pois tem apenas $menor anos de idade"."<br>";
+	}
+	}
+	
+?>
