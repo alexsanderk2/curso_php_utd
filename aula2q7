@@ -1,0 +1,14 @@
+<?php
+
+$num = array("500","900","99","15","1500");
+$x = 0;
+$menor = 0;
+
+for($w=0;$w<5;$w++){
+	if($x<=$num[$w]){
+		$x = $num[$w];	
+	}else{
+		$menor = $num[$w];
+	}
+	}echo "o numero maior eh: ". $x."<br>";
+?>
