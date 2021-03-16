@@ -1,0 +1,9 @@
+<?php
+
+	$nomes = array("arnaldo", "josé", "hélio", "carlos");
+	
+	for($w=count($nomes)-1;$w>=0;$w--){
+		echo $nomes[$w]."<br>";
+	}
+
+?>
