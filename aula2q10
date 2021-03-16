@@ -1,0 +1,16 @@
+<?php
+ 
+ $string = "10022021";
+
+ echo ("dia: $string[0]");
+ echo $string[1]."<br>"; 
+
+ echo ("mês: $string[2]");
+ echo $string[3]."<br>"; 
+
+ echo ("ano: $string[4]");
+ echo $string[5];
+ echo $string[6];
+ echo $string[7];
+
+?>
